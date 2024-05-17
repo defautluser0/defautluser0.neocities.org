@@ -1,0 +1,143 @@
+<html>
+	<head>
+		<style>
+			body {
+				background-image: url('/images/img1.png');
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		</style>
+		<link rel="stylesheet" href="https://unpkg.com/7.css">
+		<title>7.css test</title>
+	</head>
+	<body>
+		<div id="window" class="window glass active" style="width: 700px; position: absolute;">
+			<div class="title-bar">
+				<div class="title-bar-text">Untitled - Notepad</div>
+				<div class="title-bar-controls">
+					<button aria-label="Minimize"></button>
+					<button aria-label="Maximize"></button>
+					<button aria-label="Close"></button>
+				</div>
+			</div>
+			<div class="window-body">
+				<ul role="menubar" class="can-hover">
+					<li role="menuitem" tabindex="0" aria-haspopup="true">
+						File
+						<ul role="menu">
+							<li role="menuitem">
+								<a>
+									New <span>Ctrl+N</span>
+								</a>
+								<a>
+									New window <span>Ctrl+Shift+N</span>
+								</a>
+								<a>
+									Open... <span>Ctrl+O</span>
+								</a>
+							</li>
+							<li role="menuitem">
+								<a >
+									Save <span>Ctrl+S</span>
+								</a>
+							</li>
+							<li role="menuitem" class="has-divider">
+								<a >
+									Save As... <span>Ctrl+Shift+S</span>
+								</a>
+							</li>
+							<li role="menuitem">
+								<a>
+									Page setup
+								</a>
+							</li>
+							<li role="menuitem" class="has-divider">
+								<a>
+									Print... <span>Ctrl+P</span>
+								</a>
+							</li>
+							<li role="menuitem"><a >Exit</a></li>
+						</ul>
+					</li>
+					<li role="menuitem" tabindex="0" aria-haspopup="true">
+						Edit
+						<ul role="menu">
+							<li role="menuitem" class="has-divider" aria-disabled><a >Undo <span>Ctrl+Z</span></a></li>
+							<li role="menuitem" aria-disabled><a>Cut<span>Ctrl+X</span></a></li>
+							<li role="menuitem" aria-disabled><a>Copy<span>Ctrl+C</span></a></li>
+							<li role="menuitem" aria-disabled><a>Paste <span>Ctrl+V</span></a></li>
+							<li role="menuitem" aria-disabled class="has-divider"><a>Delete<span>Del</span></a></li>
+							<li role="menuitem"><a >Search with bing...<span>Ctrl+E</span></a></li>
+							<li role="menuitem" aria-disabled><a >Find...<span>Ctrl+F</span></a></li>
+							<li role="menuitem" aria-disabled><a >Find next<span>F3</span></a></li>
+							<li role="menuitem" aria-disabled><a >Find previous<span>Shift+F3</span></a></li>
+							<li role="menuitem"><a >Replace...<span>Ctrl+H</span></a></li>
+							<li role="menuitem" class="has-divider"><a >Go to...<span>Ctrl+G</span></a></li>
+							<li role="menuitem"><a>Select all<span>Ctrl+A</span></a></li>
+							<li role="menuitem"><a>Time/Date<span>F5</span></a></li>
+						</ul>
+					</li>
+					<li role="menuitem" tabindex="0" aria-haspopup="true">
+						Format
+						<ul role="menu">
+							<li role="menuitem">
+								<input type="checkbox" id="wordwrap" aria-checked="false">
+								<label for="wordwrap">Word wrap</label>
+							</li>
+							<li role="menuitem">
+								<a>Font...</a>
+							</li>
+						</ul>
+					</li>
+					<li role="menuitem" tabindex="0" aria-haspopup="true">
+						View
+						<ul role="menu">
+							<li role="menuitem" tabindex="0" aria-haspopup="true">
+								Zoom
+								<ul role="menu">
+									<li role="menuitem"><a>Zoom In<span>Ctrl+Plus</span></a></li>
+									<li role="menuitem"><a>Zoom Out<span>Ctrl+Minus</span></a></li>
+									<li role="menuitem"><a>Restore default zoom<span>Ctrl+0</span></a></li>
+								</ul>
+							</li>
+							<li role="menuitem">
+								<input type="checkbox" aria-checked id="statusbar">
+								<label for="statusbar">Status Bar</label>
+							</li>
+						</ul>
+					</li>
+					<li role="menuitem" tabindex="0" aria-haspopup="true">
+						Help
+						<ul role="menu">
+							<li role="menuitem" class="has-divider"><a>View Help</a></li>
+							<li role="menuitem"><a>About Notepad</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="has-scrollbar">
+					<p style="font-family: Consolas;">
+						Hello guys, and welcome to my video!
+					</p>
+					<p>&#8193;</p>
+					<p>&#8193;</p>
+					<p>&#8193;</p>
+					<p>&#8193;</p>
+					<p>&#8193;</p>
+					<p>&#8193;</p>
+					<p>&#8193;</p>
+					<p>&#8193;</p>
+					<p>&#8193;</p>
+					<p>&#8193;</p>
+					<p>&#8193;</p>
+				</div>
+			</div>
+			<div class="status-bar">
+				<p class="status-bar-field">&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;&#8193;</p>
+				<p class="status-bar-field">Ln 1, Col 37&#8193;&#8193;&#8193;&#8193;</p>
+				<p class="status-bar-field">100%</p>
+				<p class="status-bar-field">Windows (CRLF)</p>
+				<p class="status-bar-field">UTF-8&#8193;&#8193;</p>
+			</div>
+		<script src="7.js"></script>
+	</body>
+</html>
