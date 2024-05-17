@@ -1,0 +1,38 @@
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("images/cat.png");
+}
+
+#drag {
+  position: absolute;
+  cursor: move;
+}
+
+.blurry {
+  width: 350px;
+  height: 250px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+  backdrop-filter: blur(4.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+  border: 1px solid rgba(255, 255, 255, 0.37);
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+  
+  body {
+    background-image: none;
+  }
+  
+  body *:not(.hidden) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .hidden {
+    display: none;
+  }
+}
